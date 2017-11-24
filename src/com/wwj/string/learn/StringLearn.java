@@ -24,9 +24,11 @@ public class StringLearn {
 		
 		System.out.println("=========="+today.equals(tomorrow));  //equals 比较的是对象的内容
 		
-//		System.out.println(Integer.toHexString(tomorrow.hashCode()));
 		
-		 
+		System.out.println(Integer.toHexString(tomorrow.hashCode()));
+		System.out.println(Integer.toHexString(str.hashCode()));
+		System.out.println(Integer.toHexString(today.hashCode()));
+		
 
 	}
 
