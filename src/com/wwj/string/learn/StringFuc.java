@@ -1,6 +1,5 @@
 package com.wwj.string.learn;
 
-import java.io.UnsupportedEncodingException;
 
 public class StringFuc {
 
@@ -78,7 +77,7 @@ public class StringFuc {
 	 */
 	
 	public static String trimStr(){
-		String str="   ab   c d  ";
+		String str="   ab   c  ";
 		int head=0;
 		int tail=0;
 		
