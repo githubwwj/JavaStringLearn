@@ -29,6 +29,8 @@ public class StringLearn {
 		System.out.println(Integer.toHexString(str.hashCode()));
 		System.out.println(Integer.toHexString(today.hashCode()));
 		
+		System.out.println("abcd".indexOf("abc"));
+		
 
 	}
 
